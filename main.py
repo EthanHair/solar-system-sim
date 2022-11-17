@@ -8,7 +8,7 @@ from sun import Sun
 from moon import Moon
 from solarsystem import SolarSystem
 
-# A lot of the numbers that define the masses, distances, ect. are a result of trial and error
+# A lot of the numbers that define the masses, distances, gravity, ect. are a result of trial and error
 
 def createSSandAnimate():
     ss = SolarSystem(7,7, True, 0.1, True, True)
