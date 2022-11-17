@@ -1,7 +1,7 @@
 # This allows the file to be aware of the files in the Classes folder. Also the settings.json 
 # file in the .vscode folder does the same if you are using VSCode as your editor
 import sys
-sys.path.insert(0, ".\\classes")
+sys.path.insert(0, ".\\Classes")
 
 from planet import Planet
 from sun import Sun
